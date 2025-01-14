@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekWorld - Inicio</title>
+    <link rel=" stylesheet" href="estilosindex.css">
+
+</head>
+    <body>
+
+    <!-------Encabezado------->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+                <h1>Bienvenido Geek &lt;3</h1>
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="carrito.html">Carrito</a>
+            </nav>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    
+        <!-----Productos destacados-->
+        <main>
+            <h2>Productos Destacados</h2>
+            <div class="productos">
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <img src="3080.jpeg" alt="Tarjeta gráfica GIGABYTE GeForce RTX 3080" class="Imagenes">
+                    <h3>Tarjeta gráfica GIGABYTE GeForce RTX 3080</h3>
+                    <p>Precio: $10,255.55</p>
+                    <button onclick="agregarAlCarrito('Tarjeta gráfica GIGABYTE GeForce RTX 3080', 250)">Agregar al carrito</button>
+                </div>
+        
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <img src="ram.jpg" alt="Memoria RAM 16GB DDR4" class="Imagenes">
+                    <h3>Memoria RAM 16GB DDR4</h3>
+                    <p>Precio: $865.90</p>
+                    <button onclick="agregarAlCarrito('Memoria RAM 16GB DDR4', 80)">Agregar al carrito</button>
+                </div>
+        
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <img src="Laptop gmer.webp" alt="Laptop Gamer" class="Imagenes">
+                    <h3>Laptop Gamer HP Victus 15.6" 144Hz Ryzen 5 8645HS 16GB RAM 512GB SSD NVIDIA GeForce RTX 4050</h3>
+                    <p>Precio: $15,999.00</p>
+                    <button onclick="agregarAlCarrito('Laptop Gamer HP Victus', 1000)">Agregar al carrito</button>
+                </div>
+        
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <img src="TARJETA MADRE.webp" alt="Tarjeta Madre" class="Imagenes">
+                    <h3>Tarjeta Madre MSI B550M Pro-VDH WIFI</h3>
+                    <p>Precio: $1,800.00</p>
+                    <button onclick="agregarAlCarrito('Tarjeta Madre MSI B550M', 150)">Agregar al carrito</button>
+                </div>
+        
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <img src="Gabinte.webp" alt="Gabinete Gamer" class="Imagenes">
+                    <h3>Gabinete Yeyian Hollow 2500 con Ventana</h3>
+                    <p>Precio: $1,100.00</p>
+                    <button onclick="agregarAlCarrito('Gabinete Yeyian Hollow', 50)">Agregar al carrito</button>
+                </div>
+        
+                <!-- Producto 6 (vacío) -->
+                <div class="producto">
+                    <img src="disco_duro_externo.webp" alt="Disco Duro Externo WD Elements 2TB" class="Imagenes">
+                    <h3>Disco Duro Externo WD Elements 2TB USB 3.0</h3>
+                    <p>Precio: $1,299.00</p>
+                    <button onclick="agregarAlCarrito('Disco Duro Externo WD Elements 2TB', 100)">Agregar al carrito</button>
+                </div>
+        
+                <!-- Producto 7 (vacío) -->
+                <div class="producto">
+                    <img src="monitor_samsung.webp" alt="Monitor Samsung 24 Full HD Curvo" class="Imagenes">
+                    <h3>Monitor Samsung 24" Full HD Curvo</h3>
+                    <p>Precio: $3,450.00</p>
+                    <button onclick="agregarAlCarrito('Monitor Samsung 24 Full HD Curvo', 200)">Agregar al carrito</button>
+                </div>
+                
+                <!-- Producto 8 (vacío) -->
+                <div class="producto">
+                    <img src="teclado_mecanico.jpeg" alt="Teclado Mecánico Redragon Kumara RGB" class="Imagenes">
+                    <h3>Teclado Mecánico Redragon Kumara RGB</h3>
+                    <p>Precio: $899.00</p>
+                    <button onclick="agregarAlCarrito('Teclado Mecánico Redragon Kumara RGB', 80)">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="audiculares_g435.jpeg" alt="Auriculares Inalámbricos Logitech G435" class="Imagenes">
+                    <h3>Auriculares Inalámbricos Logitech G435 Lightspeed</h3>
+                    <p>Precio: $1,699.00</p>
+                    <button onclick="agregarAlCarrito('Auriculares Logitech G435', 1699)">Agregar al carrito</button>
+                </div>
+                
+            </div>
+        </main>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
